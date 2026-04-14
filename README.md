@@ -6,6 +6,8 @@ FAANG-style Applied AI Engineer portfolio — production ML systems, RAG pipelin
 
 ## Live Site
 
+**[applied-ai-portfolio.vercel.app](https://applied-ai-portfolio.vercel.app)**
+
 Deployed on Vercel with automatic CI/CD from GitHub.
 
 ## Featured Systems

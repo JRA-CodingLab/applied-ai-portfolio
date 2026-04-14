@@ -1,13 +1,12 @@
 # Applied AI Engineer Portfolio
 
-[![Deploy](https://github.com/JRA-CodingLab/applied-ai-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/JRA-CodingLab/applied-ai-portfolio/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-FAANG-style portfolio website showcasing production ML systems, RAG pipelines, LLM applications, and backend AI architecture.
+FAANG-style Applied AI Engineer portfolio — production ML systems, RAG pipelines, LLM applications, and backend AI architecture.
 
 ## Live Site
 
-**[jra-codinglab.github.io/applied-ai-portfolio](https://jra-codinglab.github.io/applied-ai-portfolio/)**
+Deployed on Vercel with automatic CI/CD from GitHub.
 
 ## Featured Systems
 
@@ -20,10 +19,11 @@ FAANG-style portfolio website showcasing production ML systems, RAG pipelines, L
 
 ## Tech Stack
 
-- **Framework:** Next.js 16 (App Router, Static Export)
+- **Framework:** Next.js 16 (App Router)
 - **Styling:** Tailwind CSS 4
 - **Language:** TypeScript
-- **Deployment:** GitHub Pages + GitHub Actions CI/CD
+- **Hosting:** Vercel
+- **CI/CD:** Automatic via GitHub + Vercel integration
 
 ## Development
 

@@ -21,6 +21,17 @@ export default function Home() {
         <div className="grid gap-4 md:grid-cols-2">{systems.map((s) => (<SystemCard key={s.id} system={s} />))}</div>
       </section>
       <section className="border-t border-[#e5e7eb] py-16">
+        <div className="mb-2 text-xs font-medium uppercase tracking-wider text-[#999]">Applied AI & Automation</div>
+        <h2 className="mb-8 text-2xl font-semibold tracking-tight">Additional AI Projects</h2>
+        <p className="mb-6 text-sm text-[#555]">Beyond open-source repositories, I work on practical AI and automation systems across business, finance, and content workflows.</p>
+        <div className="grid gap-4 md:grid-cols-2">
+          <div className="border border-[#e5e7eb] p-5"><h3 className="mb-2 text-sm font-semibold text-[#1a1a1a]">Newsletter & Publishing Automation</h3><p className="text-xs leading-relaxed text-[#555]">Automated creation and distribution of newsletters, article publishing pipelines, and content delivery systems using AI-driven generation and scheduling.</p></div>
+          <div className="border border-[#e5e7eb] p-5"><h3 className="mb-2 text-sm font-semibold text-[#1a1a1a]">Trading Bots & Financial Automation</h3><p className="text-xs leading-relaxed text-[#555]">Development of algorithmic trading bots and financial automation tools for market analysis and execution.</p></div>
+          <div className="border border-[#e5e7eb] p-5"><h3 className="mb-2 text-sm font-semibold text-[#1a1a1a]">Archiving & Compliance Automation</h3><p className="text-xs leading-relaxed text-[#555]">Automation and partial automation of archiving and compliance processes for enterprise data management workflows.</p></div>
+          <div className="border border-[#e5e7eb] p-5"><h3 className="mb-2 text-sm font-semibold text-[#1a1a1a]">AI-Driven Business Analysis & Book Publishing</h3><p className="text-xs leading-relaxed text-[#555]">AI-powered business analysis tools and end-to-end conceptualization, creation, and publication of AI-generated books.</p></div>
+        </div>
+      </section>
+      <section className="border-t border-[#e5e7eb] py-16">
         <div className="mb-2 text-xs font-medium uppercase tracking-wider text-[#999]">Engineering Capabilities</div>
         <h2 className="mb-8 text-2xl font-semibold tracking-tight">Systems & Architecture</h2>
         <div className="grid gap-8 md:grid-cols-3">
@@ -44,11 +55,11 @@ export default function Home() {
         <div className="grid gap-4 md:grid-cols-2">
           <a href="https://substack.com/@therecapjra" target="_blank" rel="noopener noreferrer" className="group block border border-[#e5e7eb] p-6 transition-all hover:border-[#555]">
             <h3 className="mb-2 text-base font-semibold group-hover:text-[#1a56db]">Substack</h3>
-            <p className="text-sm text-[#555]">Engineering insights, system design notes, and technical deep-dives on AI infrastructure.</p>
+            <p className="text-sm text-[#555]">Regular updates and analysis on AI developments with a strong focus on their impact on business, finance, and economics.</p>
           </a>
           <a href="https://www.youtube.com/channel/UCC5vH3f7pwde_Pzkg47D0gg" target="_blank" rel="noopener noreferrer" className="group block border border-[#e5e7eb] p-6 transition-all hover:border-[#555]">
             <h3 className="mb-2 text-base font-semibold group-hover:text-[#1a56db]">YouTube</h3>
-            <p className="text-sm text-[#555]">System architecture walkthroughs, technical demos, and AI engineering tutorials.</p>
+            <p className="text-sm text-[#555]">AI-generated podcast-style discussions based on books exploring topics in AI, business, finance, and economics.</p>
           </a>
         </div>
       </section>

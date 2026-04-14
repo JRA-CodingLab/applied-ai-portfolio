@@ -9,11 +9,24 @@ export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
       <p className="mb-2 text-xs font-medium uppercase tracking-wider text-[#1a56db]">About</p>
-      <h1 className="mb-6 text-3xl font-bold tracking-tight">Juan Ruiz Alonso</h1>
+      <div className="mb-8 flex items-start gap-6">
+        <div className="shrink-0"><img src="/applied-ai-portfolio/profile.jpg" alt="Juan Ruiz Alonso" width={80} height={80} className="rounded-sm border border-[#e5e7eb] object-cover" style={{width: 80, height: 80}} /></div>
+        <div><h1 className="mb-1 text-3xl font-bold tracking-tight">Juan Ruiz Alonso</h1><p className="text-sm text-[#555]">Applied AI Engineer \u2014 Hamburg, Germany</p></div>
+      </div>
       <section className="mb-12">
         <p className="mb-4 text-sm leading-relaxed text-[#555]">Applied AI Engineer based in Hamburg, Germany. I design and deploy production ML systems, RAG pipelines, and backend AI architecture \u2014 from data ingestion to live REST APIs with Docker and CI/CD.</p>
         <p className="mb-4 text-sm leading-relaxed text-[#555]">Currently working as a Werkstudent in Data Automation &amp; Claims Analytics at Aon, building Excel VBA automations for large claims datasets (&gt;1,000 entries), system export processing, and monitoring reports.</p>
         <p className="text-sm leading-relaxed text-[#555]">Studying International Business &amp; Management at SRH University Hamburg, with parallel degrees in Financial Management and FinTech at IU International University.</p>
+      </section>
+      <section className="mb-12">
+        <h2 className="mb-6 text-sm font-semibold uppercase tracking-wider text-[#1a1a1a]">Applied AI & Automation Experience</h2>
+        <div className="grid gap-3 md:grid-cols-2">
+          <div className="border-l-2 border-[#e5e7eb] pl-4"><div className="text-sm font-medium text-[#1a1a1a]">Newsletter & Publishing Automation</div><div className="text-xs text-[#555]">Automated creation and distribution pipelines for newsletters and articles</div></div>
+          <div className="border-l-2 border-[#e5e7eb] pl-4"><div className="text-sm font-medium text-[#1a1a1a]">Trading Bots</div><div className="text-xs text-[#555]">Algorithmic trading bots for market analysis and automated execution</div></div>
+          <div className="border-l-2 border-[#e5e7eb] pl-4"><div className="text-sm font-medium text-[#1a1a1a]">Archiving & Compliance Automation</div><div className="text-xs text-[#555]">Automation of archiving and compliance processes for enterprise workflows</div></div>
+          <div className="border-l-2 border-[#e5e7eb] pl-4"><div className="text-sm font-medium text-[#1a1a1a]">AI-Generated Book Publishing</div><div className="text-xs text-[#555]">End-to-end conceptualization, creation, and publication of AI-generated books</div></div>
+          <div className="border-l-2 border-[#e5e7eb] pl-4"><div className="text-sm font-medium text-[#1a1a1a]">AI-Driven Business Analysis</div><div className="text-xs text-[#555]">Business intelligence and analysis tools powered by AI models</div></div>
+        </div>
       </section>
       <section className="mb-12">
         <h2 className="mb-6 text-sm font-semibold uppercase tracking-wider text-[#1a1a1a]">Technical Skills</h2>

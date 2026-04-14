@@ -9,10 +9,7 @@ export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
       <p className="mb-2 text-xs font-medium uppercase tracking-wider text-[#1a56db]">About</p>
-      <div className="mb-8 flex items-start gap-6">
-        <div className="shrink-0"><img src="/applied-ai-portfolio/profile.jpg" alt="Juan Ruiz Alonso" width={80} height={80} className="rounded-sm border border-[#e5e7eb] object-cover" style={{width: 80, height: 80}} /></div>
-        <div><h1 className="mb-1 text-3xl font-bold tracking-tight">Juan Ruiz Alonso</h1><p className="text-sm text-[#555]">Applied AI Engineer \u2014 Hamburg, Germany</p></div>
-      </div>
+      <h1 className="mb-6 text-3xl font-bold tracking-tight">Juan Ruiz Alonso</h1>
       <section className="mb-12">
         <p className="mb-4 text-sm leading-relaxed text-[#555]">Applied AI Engineer based in Hamburg, Germany. I design and deploy production ML systems, RAG pipelines, and backend AI architecture \u2014 from data ingestion to live REST APIs with Docker and CI/CD.</p>
         <p className="mb-4 text-sm leading-relaxed text-[#555]">Currently working as a Werkstudent in Data Automation &amp; Claims Analytics at Aon, building Excel VBA automations for large claims datasets (&gt;1,000 entries), system export processing, and monitoring reports.</p>
